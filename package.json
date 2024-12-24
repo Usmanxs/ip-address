@@ -1,0 +1,27 @@
+{
+  "name": "ip-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "15.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "geoip-lite": "^1.4.10",
+    "postcss": "^8",
+    "request-ip": "^3.3.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
